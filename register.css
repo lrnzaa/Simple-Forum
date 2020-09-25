@@ -1,0 +1,65 @@
+#headerLink{
+    font-size: 24px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(6, 117, 221);
+    color: white;
+    text-align: center;
+}
+
+#numPhoneNumber::-webkit-inner-spin-button,
+#numPhoneNumber::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#formRegistration{
+    margin-left: 450px;
+}
+
+.regisForm{
+    background-color: rgba(216, 211, 211, 0.342);
+    font-size: 13px;
+    border: none;
+    display: block;
+    color: rgb(78, 78, 78);
+    padding: 8px;
+    border-radius: 12px;
+    
+}
+#numPhoneNumber{
+    width: 620px;
+}
+
+#btnSubmit{
+    background-color: rgb(0, 132, 255);
+    border: none;
+    align-content: center;
+    align-items: center;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+@media only screen and (max-width:535px){
+    h1{
+        align-content: center;
+        text-align: center;
+    }
+
+    #headerLink{
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+}

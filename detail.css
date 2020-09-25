@@ -1,0 +1,147 @@
+#headerLink{
+    font-size: 24px;
+}
+
+.topquestion{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(253, 253, 253, 0.938);
+    border: 1px;
+    padding: 14px;
+    margin: auto;
+    border-radius: 12px;
+    width: 80%;
+    height: 220px;
+}
+
+#rep1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(253, 253, 253, 0.938);
+    border: 1px;
+    padding: 14px;
+    margin: auto;
+    border-radius: 12px;
+    width: 70%;
+    height: 125px;
+}
+
+#rep2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(253, 253, 253, 0.938);
+    border: 1px;
+    padding: 14px;
+    margin: auto;
+    border-radius: 12px;
+    width: 70%;
+    height: 125px;
+}
+
+#rep3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(253, 253, 253, 0.938);
+    border: 1px;
+    padding: 14px;
+    margin: auto;
+    border-radius: 12px;
+    width: 70%;
+    height: 120px;
+}
+
+#txtReply{
+    width: 820px;
+    height: 70px;
+}
+
+#replyBox{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(253, 253, 253, 0.938);
+    border: 1px;
+    padding: 14px;
+    margin: auto;
+    border-radius: 12px;
+    width: 55%;
+    height: 125px;
+}
+
+#title1{
+    font-size: 25px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(6, 117, 221);
+    color: white;
+    text-align: center;
+}
+
+#btnReply{
+    background-color: rgb(0, 132, 255);
+    border: none;
+    align-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 535px){
+    h1{
+        align-content: center;
+        align-items: center;
+    }
+    #headerLink{
+        align-content: center;
+        text-align: center;
+    }
+    .topquestion{
+        width: 65%;
+        height : 18%;
+        display: block;
+        margin-bottom: 20px;
+        align-content: center;
+    }
+
+    #rep1{
+        width: 65%;
+        height : 18%;
+        display: block;
+        margin-bottom: 20px;
+        align-content: justify;
+    }
+
+    #rep2{
+        width: 65%;
+        height : 18%;
+        display: block;
+        margin-bottom: 20px;
+        align-content: justify;
+    }
+
+    #rep3{
+        width: 65%;
+        height : 18%;
+        display: block;
+        margin-bottom: 20px;
+        align-content: justify;
+    }
+
+    #replyBox{
+        width: 65%;
+        height : 14%;
+        display: block;
+        margin-bottom: 20px;
+        align-content: justify;
+    }
+
+    #txtReply{
+        width: 330px;
+        height: 50px;
+    }
+}

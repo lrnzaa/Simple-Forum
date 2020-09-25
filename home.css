@@ -1,0 +1,55 @@
+#headerLink{
+    font-size: 24px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(6, 117, 221);
+    color: white;
+    text-align: center;
+}
+
+.topQuestionBox{
+    color: rgb(0, 132, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(253, 253, 253, 0.938);
+    border: 1px;
+    padding: 14px;
+    margin: auto;
+    border-radius: 12px;
+    width: 55%;
+    height: 160px;
+
+}
+
+#topQuestion{
+    font-size: 34px;
+}
+
+#theQuestion{
+    font-size: 28px;
+}
+
+#askedBy{
+    font-size: 16px;
+    text-align: right;
+}
+
+@media screen and (max-width: 535px){
+    h1{
+        align-content: center;
+        align-items: center;
+    }
+    #headerLink{
+        align-content: center;
+        text-align: center;
+    }
+
+    .topQuestionBox{
+        width: 60%;
+        height: 200px;
+    }
+}

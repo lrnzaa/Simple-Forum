@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="regis.css">
+        <meta name="viewport" content="width=device-width, inital scale=1.0">
+    </head>
+    <h1><img src="assets/web_assets/forums-header-logo.png" alt="logo" width="280" height="80">
+        <div class ="header" id="headerLink" align="right"><a href="home.html"> &#60 Back to home</a></div>
+    </h1>
+    <hr>
+    <body>
+        <div class="footer">
+                <p>Forums -za- &copy; Copyright 2019</p>
+        </div>
+        <h1 align="center"><b>Join Forums</b></h1>
+        <br>
+        <form id="formRegistration" action="POST">
+            <label><align="center"><b>What's your name?</b></label>
+            <br>
+            <input type="text" class="regisForm" id="txtName" placeholder="Enter your name.." size="90">
+            <br>
+
+            <label><b>What's your email address?</b></label>
+            <br>
+            <input type="text" class="regisForm" id="txtEmail" placeholder="Enter your email.."size="90">
+            <br>
+
+            <label><b>What's your phone number?</b></label>
+            <br>
+            <input type="number" class="regisForm" id="numPhoneNumber" placeholder="Enter your phone number..">
+            <br>
+
+            <label><b>Additional Information</b></label>
+            <br>
+            <label>Home Address</label>
+            <br>
+            <input type="text" class="regisForm" id="txtAddress" placeholder="Enter your address.."size="90">
+            <br>
+            
+            <label>Gender</label>
+            <input type="radio" name="gender" id="rbMale">Male
+            <input type="radio" name="gender" id="rbFemale">Female
+            <br>
+
+            <label><b>Set up you password</b></label>
+            <br>
+            <input type="password" class="regisForm" id="txtPassword" placeholder="Enter your password.." size="90" >
+            <br>
+
+            <label id="lblError" style="color: red;"></label>
+            <br>
+
+        </form>
+        <input type="button" value="Submit" id="btnSubmit" onclick="validateForm();">
+
+        <br><br><br>
+    </body>
+</html>
+
+<script type="text/javascript" src="form.js"></script>

@@ -1,0 +1,88 @@
+#headerLink{
+    font-size: 24px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(6, 117, 221);
+    color: white;
+    text-align: center;
+}
+
+.partners{
+    text-align: center;
+}
+
+#ourPartners{
+    color: rgb(6, 110, 208);
+    font-size: 28px;
+    text-align: center;
+    align-content: center;
+}
+
+#ourPartnersText{
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+    align-items: center;
+    word-wrap: break-word;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.column{
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.row{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: white;
+}
+
+.btnVisit{
+    background-color: rgb(0, 132, 255);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 11px;
+}
+
+@media screen and (max-width: 535px){
+    .column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    #headerLink{
+         align-items: center;
+         align-content: center;
+         text-align: center;
+    }
+}
