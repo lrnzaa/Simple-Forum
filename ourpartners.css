@@ -34,17 +34,19 @@
 }
 
 .column{
-    float: left;
+    /* float: left; */
     width: 20%;
-    padding: 0 10px;
-    margin: auto;
+    padding: 0 30px;
+    /* margin: auto; */
 }
 
 .row{
-    margin: 0 auto;
+    /* margin: 0 auto;
     align-items: center;
     text-align: center;
-    align-content: center;
+    align-content: center; */
+    display: flex;
+    justify-content: center;
 }
 
 .row:after{
